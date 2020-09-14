@@ -4,7 +4,8 @@ public class PrimeNumber {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-        int count = 0;// ¼ÇÂ¼ÖÊÊý¸öÊý
+        int count = 0;// ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+        System.out.println("è®¡ç®—200000å†…è´¨æ•°");
         label:
         for (int i = 2; i <= 200000; i++) {
             int k = (int) Math.sqrt(i);
@@ -16,8 +17,8 @@ public class PrimeNumber {
             count = count+i;
         }
         long stop = System.currentTimeMillis();
-        System.out.println("ÓÃÊ± = " + (stop - start));
-        System.out.println("ÖÊÊýµÄ×ÜºÍ = " + count);
+        System.out.println("è€—æ—¶= " + (stop - start));
+        System.out.println("æ€»æ•°= " + count);
 
 	}
 
